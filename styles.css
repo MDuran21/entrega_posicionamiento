@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   color: rgb(225, 187, 0);
+  text-decoration: none;
 }
 
 :root {
@@ -21,6 +22,7 @@ body {
   height: 100vh;
   min-width: 300px;
   position: relative;
+  min-height: 925px;
 }
 
 body::before {
@@ -46,10 +48,9 @@ body::before {
   font-style: normal;
 }
 
-/* 
-body {
+h2 {
   font-family: 'DroidLanguage', Arial, sans-serif;
-} */
+}
 
 .title {
   text-align: center;
